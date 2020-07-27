@@ -201,15 +201,14 @@ header {
 /*
     City showcase 
 */
-.mood-showcase {
+.city-showcase {
     list-style: none;
     width: 100%;
 }
-.mood-showcase li {
+.city-showcase li {
     display: block;
     float: left;
-    width: 23%;
-    margin: 0 1%;
+    width: 25%;
 }
 
 .me-photo {
@@ -217,7 +216,7 @@ header {
     margin: 0;
     overflow: hidden;
     background-color: #000;
-    border-radius: 150px;
+/*    border-radius: 150px;*/
 }
 
 .me-photo img{
