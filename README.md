@@ -43,3 +43,10 @@ HTML BASICS
 
 <img src="./contact-form.png" width="464" height="349" >
 
+### section7: footer
+* darker mask with white/gray text
+* social media icon-color
+* transition when hover: color changes
+
+<img src="./footer-cover.png" width="598" height="76" >
+
