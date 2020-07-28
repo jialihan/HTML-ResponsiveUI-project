@@ -463,3 +463,67 @@ input[type="checkbox"]
 *:focus {
     outline: none;
 }
+
+/* ------------------------- */
+/* Footer */
+/* ------------------------- */
+footer {
+   background-color: #3e3e3e;
+    padding: 50px;
+       
+}
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+   display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited
+{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links li a:active
+{  
+    color: #f7f4f4;
+}
+    
+footer p{
+    text-align: center;
+    color: #777777;
+    font-size: 90%;
+    margin-top: 20px;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 180%;
+}
+
+
+
+                        
