@@ -29,11 +29,17 @@ HTML BASICS
 
 <img src="./dance-cover.png" width="570" height="265" >
 
-### section5: footer feedbacks
+### section5: feedbacks
 1. `blockquote tag` `cite` tag
 2. linear gradient background color
 3. quotation marks `:before` tag
 4. absolute(child) vs relative(parent)
 <img src="./feedback-cover.png" width="590" height="199" >
 
+### section6: contact form
+* input: type = `text, email, checkbox, submit`
+* select
+* textarea
+
+<img src="./contact-form.png" width="464" height="349" >
 
