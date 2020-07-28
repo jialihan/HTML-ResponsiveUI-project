@@ -18,7 +18,7 @@ HTML BASICS
 
 <img src="./mood-cover.png" width="519" height="277" >
 
-### section3: 4 box layout with items
+### section4: 4 box layout with items
 1. icon and text align together in one-line
 ```
 /* secrets to align icons and text */
@@ -28,4 +28,18 @@ HTML BASICS
 ```
 
 <img src="./dance-cover.png" width="570" height="265" >
+
+### section5: feedbacks
+1. `blockquote tag` `cite` tag
+2. linear gradient background color
+3. quotation marks `:before` tag
+4. absolute(child) vs relative(parent)
+<img src="./feedback-cover.png" width="590" height="199" >
+
+### section6: contact form
+* input: type = `text, email, checkbox, submit`
+* select
+* textarea
+
+<img src="./contact-form.png" width="464" height="349" >
 
