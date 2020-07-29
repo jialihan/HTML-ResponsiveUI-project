@@ -57,6 +57,5 @@ HTML BASICS
 3. **768px <= size <= 1023px :** bigger tablet / landscape view of tablets
 4. **1024px <= size <= 1200px :** close to our max row width( which is set to 1140px on all browsers)
 
-<img src="./footer-cover.png" width="436" height="698" >
-
+<img src="./responsive-cover.png" width="349" height="558" >
 
