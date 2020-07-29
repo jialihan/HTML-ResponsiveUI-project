@@ -50,3 +50,13 @@ HTML BASICS
 
 <img src="./footer-cover.png" width="598" height="76" >
 
+### section6: responsive UI with media query
+
+1. **0 <= size <= 480px :** old small phone screen
+2. **481px <= size <= 767px :** phone to tablet screen
+3. **768px <= size <= 1023px :** bigger tablet / landscape view of tablets
+4. **1024px <= size <= 1200px :** close to our max row width( which is set to 1140px on all browsers)
+
+<img src="./footer-cover.png" width="436" height="698" >
+
+
