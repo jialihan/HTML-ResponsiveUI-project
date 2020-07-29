@@ -10,13 +10,15 @@ Orange color: #e67e22
   box-sizing: border-box;
 }
 
-html {
+html,
+body{
   background-color: #fff;
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+   overflow-x: hidden;
 }
 .clearfix {zoom:1}
 .clearfix:after {
@@ -196,7 +198,7 @@ header {
     url(img/hero.jpg);
   height: 100vh;
   background-size: cover;
-  background-position: center;
+  backgroun f d-position: center;
 }
 
 .hero-text-box {
@@ -282,14 +284,11 @@ header {
 * Mood
 */
 .step-box {
-
-    
+     margin-top: 30px;
 }
 .step-box:first-child {
     text-align: right;
-    padding-right: 3%;
-        margin-top: 30px;
-    
+    padding-right: 3%;  
 }
 .step-box:last-child {
     padding-left: 3%; 
@@ -470,6 +469,7 @@ input[type="checkbox"]
 footer {
    background-color: #3e3e3e;
     padding: 50px;
+     font-size:80%;
        
 }
 .footer-nav {
