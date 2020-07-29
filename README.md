@@ -59,3 +59,18 @@ HTML BASICS
 
 <img src="./responsive-cover.png" width="296" height="474" >
 
+5. Add different browser and old browser supportive soluton
+   install 3 scripts to improve css features:
+   
+    • `respond.js`
+        respond.js which enables the browser to understand and execute CSS media queries which we need for responsive web design.
+        https://www.jsdelivr.com/package/npm/respond.js?path=dest
+
+    • `HTML5Shiv`
+        This enables us to use and style HTML5 elements in older browsers that were available before HTML5 actually existed.
+        https://www.jsdelivr.com/package/npm/html5shiv
+
+    • `selectivizr`
+        And this allows us to use CSS3 pseudo classes like less child and first child. Or Internet Explorer 6, 7, and 8.
+        https://www.jsdelivr.com/package/npm/selectivizr
+
