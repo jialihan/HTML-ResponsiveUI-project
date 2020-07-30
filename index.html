@@ -7,7 +7,11 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
         <title>Jelly's gallery</title>
     </head>
     <body>
@@ -20,21 +24,23 @@
             <nav>
                 <div class="row">
                     <img src="./resources/css/img/jelly-logo.png"  alt="jelly logo" class="logo">
-                    <ul class="main-nav">
-                        <li> <a href="#">TimeLine</a></li>
-                         <li> <a href="#">City Memory</a></li>
-                         <li> <a href="#">Mood</a></li>
-                         <li> <a href="#">Dance Journey</a></li>
+                      <img src="./resources/css/img/logo.png"  alt="black-logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li> <a href="#feature1">TimeLine</a></li>
+                         <li> <a href="#feature2">City Memory</a></li>
+                         <li> <a href="#feature3">Mood</a></li>
+                         <li> <a href="#feature4">Dance Journey</a></li>
                     </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><ion-icon name="menu-outline" id="nav-icon"></ion-icon></a>
                 </div>
             </nav>
             <div class="hero-text-box">
                 <h1>Hello, welcome to explore <br> jelly's journey!</h1>
-                <a class="btn btn-full" href="#">Explore now</a>
-                <a class="btn btn-ghost" href="#">Show me more</a>
+                <a class="btn btn-full js--scroll-to-plans" href="#">Donate now</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
             </div> 
         </header>
-       <section class="section-features">
+       <section class="section-features js--section-features" id="feature1">
            <div class="row">
                <h2>
                 Grow up &mdash; experience, challenge and change.
@@ -43,7 +49,7 @@
                    Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
                </p>
            </div>
-           <div class="row">
+           <div class="row js--wp-1">
                <div class="col span-1-of-4 box">
                   <ion-icon name="bicycle-outline" class="icon-big"></ion-icon>
                    <h3> Childhood</h3>
@@ -74,7 +80,7 @@
                </div>
            </div>
         </section>
-        <section class="section-city">
+        <section class="section-city js--wp-2" id="feature2">
             <ul class="city-showcase clearfix">
                 <li>
                     <figure class="me-photo">
@@ -120,13 +126,13 @@
                 </li>
             </ul>
         </section>
-        <section class="section-mood">
+        <section class="section-mood" id="feature3">
             <div class="row">
                 <h2>How to get a happy mood &mdash; simple step 1, 2, 3</h2>
             </div>
             <div class="row">
                 <div class="col span-1-of-2 step-box">
-                    <img src="resources/css/img/phone.png" alt="jelly's phone" class="app-screen">
+                    <img src="resources/css/img/phone.png" alt="jelly's phone" class="app-screen js--wp-3">
                 </div>
                 <div class="col span-1-of-2 step-box">
                         <div class="work-step">
@@ -146,11 +152,11 @@
                     </div>
             </div>
         </section>
-        <section class="section-dance">
+        <section class="section-dance" id="feature4">
             <div class="row">
                 <h2>Let's dance together</h2>
             </div>
-             <div class="row">
+             <div class="row js--wp-4">
                  <div class="col span-1-of-4 box">
                      <img src="/resources/css/img/person1.png" alt="jessica">
                      <h3>Jessica</h3>
@@ -245,7 +251,7 @@
                  </div>
             </div>
         </section>
-        <section class="section-plans">
+        <section class="section-plans js--section-plans">
              <div class="row">
                 <h2>Start to donate to jelly's journey!</h2>
             </div>
@@ -415,11 +421,18 @@
                 <p>Copyright &copy; 2020 by Jelly.  &nbsp; All rights reserved</p>
             </div>
         </footer>
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+         <script src="/vendors/js/jquery.waypoints.min.js"></script>
+         <script src="/resources/js/script.js"></script>
+   
+    </body>
+    
     
 </html>
 

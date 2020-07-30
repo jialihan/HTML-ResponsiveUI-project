@@ -195,19 +195,13 @@ input[type="submit"]:active {
 /* Header */
 /* ------------------------------------- */
 header {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.5))
-    ),
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
     url(img/hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(img/hero.jpg);
   height: 100vh;
   background-size: cover;
-  backgrounf d-position: center;
+  backgrounfd-position: center;
 }
 
 .hero-text-box {
@@ -218,22 +212,32 @@ header {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.logo {
+
+.logo{
   height: 100px;
   width: auto;
   float: left;
   border-radius: 50px;
   margin-top: 20px;
 }
+.logo-black {
+    display: none;
+    height: 50px;
+      width: auto;
+      float: left;
+      margin: 5px 0;
+}
+
+/* Main nav */
 .main-nav {
   float: right;
   list-style: none;
+   margin-top: 55px;
 }
 
 .main-nav li {
   display: inline-block;
   margin-left: 40px;
-  margin-top: 60px;
 }
 
 .main-nav li a:link,
@@ -250,6 +254,45 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 4px solid #e67e22;
+}
+
+/* Sticky nav */
+.sticky {
+    z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  -webkit-box-shadow: 0 2px 10px #efefef;
+  box-shadow: 0 2px 10px #efefef;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 15px 0;
+  color: #555;
+}
+
+.sticky .logo-black{
+    display: block;
+}
+.sticky .logo{
+    display: none;
+}
+.sticky .main-nav{
+    margin-top: 18px;
+}
+
+/* mobile nav */
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon ion-icon {
+    color: white;
+    font-size:200%;
 }
 
 /*
@@ -370,13 +413,7 @@ cite img {
 }
 
 .section-feedback {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.8)),
-      to(rgba(0, 0, 0, 0.8))
-    ),
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))),
     url(img/customer-back.png);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(img/customer-back.png);
@@ -537,4 +574,21 @@ footer p {
 .social-links li a:link,
 .social-links li a:visited {
   font-size: 180%;
+}
+
+/* Animations */
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    --animate-duration:1s;
+}
+.js--wp-4 {
+    --animate-duration:1s;
+}
+
+.js--wp-1 .animate__animated,
+.js--wp-2 .animate__animated,
+.js--wp-3 .animate__animated {
+    opacity: 1;
 }
