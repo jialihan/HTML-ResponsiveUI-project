@@ -73,4 +73,12 @@ HTML BASICS
     • `selectivizr`
         And this allows us to use CSS3 pseudo classes like less child and first child. Or Internet Explorer 6, 7, and 8.
         https://www.jsdelivr.com/package/npm/selectivizr
+        
+        
+### Section7: mobile nav with jquery
+1. use jquery
+2. add animation when scrolling
+3. build responsive mobile navigation bar
+
+<img src="./mobile-nav.png" width="446" height="216" >
 
